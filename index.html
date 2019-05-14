@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Simple Business Site</title>
+
+<style type="text/css">
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 {
+	color: #CC7237;
+}
+
+hr {
+	color: #b1b1b1;
+	margin: 50px;
+}
+
+
+.container-upper {
+	background-color: black;
+	color: white;
+	text-align: right;
+	padding-right: 100px;
+	height: 30px;
+}
+
+.container-upper p {
+	vertical-align: 50%;
+}
+
+.container-corpo {
+	background-color: white;
+	height: 1200px;
+	padding: 50px;
+	text-align: justify;
+	color: #868686;
+}
+
+
+.container-footer {
+	background-color: #454545;
+	text-align: center;
+	padding-top: 20px;
+	height: 200px;
+	width: 100%;
+	color: #b4b4b4;
+}
+
+.container-footer nav a {
+	text-decoration: none;
+	color: #CC7237;
+	padding: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.container-menu {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-image: url("imagem-servidor.jpg");
+	background-size: cover;
+}
+
+.container-menu a {
+	color: #CC7237;
+	text-decoration: none;
+	padding: 20px;
+	margin-left: 15px;
+	background-color: black;
+	opacity:0.6;
+}
+
+.container-menu a:hover {
+	opacity: 1;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+	.container-footer {
+	margin-top: 100px;
+}
+
+}
+
+
+</style>
+
+</head>
+<body>
+
+	<div class="container-upper">
+	<p>Our Business - 11 1234-1234  11 1234-1234</p>
+	</div>
+
+
+<div class="container-menu">
+	<nav>
+	<a href="#">EMPRESA</a>
+	<a href="#">CLIENTES</a>
+	<a href="#">CONTATO</a>
+    </nav>
+</div>
+
+	<div class="container-corpo">
+
+
+
+
+			<h1>nossa empresa</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut odio cursus, eleifend magna quis, lobortis mi. Aliquam ornare sodales molestie. Cras eget gravida elit. Proin sapien dolor, pretium in bibendum et, ultrices ut lectus. Curabitur a libero commodo arcu rhoncus efficitur a at tellus. Etiam a ligula id metus feugiat commodo. Phasellus ultricies justo ut sagittis iaculis. Pellentesque placerat fringilla ligula nec aliquet. Vivamus dignissim felis sapien, sed auctor massa euismod vel.Sed auctor, ante vitae vehicula tristique, sapien risus maximus libero, vitae tristique ex lorem nec lacus. Duis mi arcu, fermentum eget nisi et, condimentum aliquam eros.</p><br>
+			<p>Aliquam at vulputate augue, at convallis ipsum. Phasellus nibh tellus, finibus quis eros non, luctus venenatis quam. Fusce non nulla a magna eleifend eleifend. Fusce eget laoreet massa. Aliquam ac mi malesuada, fermentum urna in, dictum quam. Nulla facilisi. Aliquam vitae odio dolor. </p>
+		<br><hr>
+			<h1>clientes</h1>
+			<p>Duis id purus vitae leo efficitur semper nec vitae arcu. Quisque et mauris ut ex ornare accumsan. Pellentesque lacus nulla, sollicitudin rutrum sodales eget, aliquam id lectus. Donec id nisl congue, aliquam velit ut, varius velit. Aenean blandit ante finibus libero placerat, at molestie lectus pulvinar.<br><br>
+			Duis eleifend egestas lorem eget ultrices. Vivamus sit amet dui hendrerit, suscipit est porttitor, euismod leo. Aliquam erat volutpat. Praesent euismod elit vitae mauris vulputate condimentum. Aenean tempus turpis a scelerisque molestie.<br><br>
+			Nullam lobortis commodo mauris, sed tempus libero fringilla ac. Maecenas id luctus enim. Praesent non tincidunt dolor. Nullam rhoncus nulla vitae quam pulvinar lacinia. Pellentesque ac porttitor dolor. In imperdiet venenatis tortor, eu porta felis.  </p>
+		<br><hr>
+			<h1>contato</h1>
+			<p>Etiam eu sem malesuada, rhoncus odio non, placerat massa. In hac habitasse platea dictumst. Duis ac orci nec quam consectetur volutpat. Nullam nec luctus erat. </p><br>
+
+
+			
+				<p>Avenida Paulista, XXX - 3° Andar<br>
+				Cerqueira César - São Paulo, 01310 - 999<br><br>
+			contato@ourbusiness.com<br><br>
+			 (11) 1234-1234<br>
+			 (11) 1234-1234<br>
+
+			</p>
+					<div class="container-formulario">
+						<form>
+							<form action="/meu_arquivo.php">	
+								<br>
+								<input type="text" name="Nome" value="Nome"><br><br>
+								<input type="email" name="E-Mail" value="E-Mail"><br><br>
+								<input type="tel" name="Telefone" value="Telefone"><br><br>
+								<select name="Departamento">
+										<option value="Comercial">Comercial</option>
+										<option value="Duvidas">Dúvidas</option>
+										<option value="Sugestoes">Sugestões/Reclamações</option>
+										<option value="Recursos-Humanos">Recursos Humanos</option>
+									
+								</select>
+								<p>Mensagem</p>
+					 <textarea name="message" style="width:500px; height:100px"></textarea><br>
+					<input type="submit" name="Enviar" value="Enviar">
+							<br><br>
+						</form>
+					</div>
+
+	</div class="container-corpo">
+
+
+<footer>
+
+	<div class="container-footer">
+	</br>
+		<nav>
+			<a href="#">Empresa</a>
+			<a href="#">Clientes</a>
+			<a href="#">Contato</a>
+		</nav>
+
+		</br></br></br></br></br>
+		<p><strong>RODAPÉ</strong></p>
+	</div>
+
+	
+</footer>
+
+
+
+</body>
+</html>
